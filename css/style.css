@@ -1,0 +1,420 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url("../img/8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container
+{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+.name 
+{
+    display: flex;
+    background: #ffa485;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 38px;
+    width: 233px;
+    
+}
+.name img 
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.name img 
+{
+   
+    flex: 1;
+}
+.name .nm 
+{
+    background: rgb(211, 205, 205);
+    height: 38px;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+}
+.head h2
+{
+   color: #fff;
+   padding: 3px 5px;
+   background: #ffa485;
+   text-align: center;
+   margin-bottom: 30px;
+  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body
+{
+    width: 100%;
+}
+.bd-head 
+{
+  width: 50%;
+  margin-left: 10px;
+}
+.bd-head ul 
+{
+    list-style: none;
+    background: #fff;
+    height: 30px;
+    border: solid 1px #aaa;
+    display: flex;
+}
+.bd-head li 
+{
+    flex: 1;
+    display: inline-block;
+    padding: 5px 27px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bd-head li:hover 
+{
+    background: #ffa485;
+    color: #fff;
+    transition: 0.6s;
+}
+.bd-head .li1 
+{
+    background: #ffa485;
+    color: #fff;
+    border-bottom: solid 1px #ec0d05;
+}
+.row
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col
+{
+    flex-basis: 50%;
+    height: 400px;
+    margin-top: 20px;
+    min-width: 480px;
+}
+.col .conten
+{
+  
+}
+.col .conten .hd1
+{
+   width: 98%;
+   margin:5px auto;
+   height: 120px;
+   display: flex;
+}
+
+.col .conten .hd1 .cl1 
+{
+    flex: 1;
+    margin: 5px;
+    background: #fff;
+    cursor: pointer;
+    max-width: 242px;
+    display: flex;
+}
+.col .conten .hd1 .cl1:hover
+{
+    background: #ffa485;
+} 
+.col .conten .hd1 .cl1 .info2
+{
+    flex: 2;
+}
+.col .conten .hd1 .cl1 .inf2
+{
+    flex: 2;
+}
+.col .conten .hd1 .cl1 .play
+{
+    flex: 1;
+}
+.col .conten .hd1 .cl1 .inf2 h2
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #000080c5;
+}
+.col .conten .hd1 .cl1 .inf2 span 
+{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.col .conten .hd1 .cl1 .inf2 span img 
+{
+    width: 30px;
+}
+.col .conten .hd1 .cl1 .inf2 span h4
+{
+    margin-top: 5px;
+    color: #807b04;
+}
+.col .conten .hd1 .cl1 .inf2 p
+{
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.col .conten .hd1 .cl1 .play .pl
+{
+    margin-top: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+} 
+.col .conten .hd1 .cl1 .play .pl:hover
+{
+    background: #aaa;
+}
+.col .conten .hd1 .cl1 .play .pl img 
+{
+    width: 100%;
+    height: 100%;
+}
+/*--------------------------------*/
+.col .conten .hd2
+{
+   width: 98%;
+   margin:5px auto;
+
+   height: 250px;
+   display: flex;
+}
+.col .conten .hd2 .sl1
+{
+    flex: 1;
+    margin: 5px;
+    background: #fff;
+    cursor: pointer;
+    max-width: 242px;
+}
+.col .conten .hd2 .sl1:hover
+{
+    background: #ffa485;
+    transition: 0.6s;
+} 
+
+.col .rl1 
+{
+    width: 98%;
+    margin:10px auto;
+    height: 240px;
+    cursor: pointer;
+    position: relative;
+}
+.col .rl1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.col .rl2
+{
+    width: 98%;
+    margin:5px auto;
+    height: 115px;
+    background: #fff;
+    cursor: pointer;
+    background-image: url("../img/9.jpg");
+    background-size: cover;
+    background-position:top;
+}
+.col .rl2 .shadow 
+{
+    padding: 10px 0;
+    width: 100%;
+    height: 83%;
+    background: rgba(255, 255, 255, 0.5);
+}
+.col .rl2 .shadow h2
+{
+    margin-left: 100px;
+    color: #000080c5;
+}
+.col .rl2 .shadow p 
+{
+    width: 50%;
+    margin: 10px 0 0 80px;
+    color: rgb(66, 66, 66);
+    font-size: 15px ;
+    font-weight: 200;
+}
+
+/*------------------------rang-plogo----------------------*/
+.rang-plogo
+{
+    width: 100%;
+    display: flex;
+}
+.rang-plogo .range 
+{
+    flex: 1;
+    text-align: center;
+}
+.rang-plogo .range h2 
+{
+    margin-top: 5px;
+    color: #000080c5;
+}
+.rang-plogo .plogo
+{
+    flex: 1;
+    text-align: center;
+}
+.rang-plogo .plogo img 
+{
+    width: 55px;
+}
+.list .h1
+{
+    width: 100%;
+    list-style: none;
+    background: none;
+    height: 30px;
+    border: none;
+    display: flex;
+    margin: 1px 0;
+}
+.list .h1:hover
+{
+    background: none;
+    color: #000;
+}
+.list ul 
+{
+    width: 100%;
+    list-style: none;
+    background: rgb(171, 214, 219);
+    height: 30px;
+    border: none;
+    display: flex;
+    margin: 1px 0;
+   
+}
+.list ul:hover
+{
+    background: #000080;
+    color: #fff;
+} 
+.list .l1 
+{
+    flex: 1;
+    display: inline-block;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list .l2 
+{
+    flex: 3;
+    display: flex;
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list .l2 img
+{
+    width: 15px;
+    float: left;
+    margin-right: 5px;
+}
+.list .l2 h4
+{
+    flex: 1;
+    margin-top: 3px;
+}
+.list .l1 h4
+{
+    
+    margin-top: 3px;
+}
+
+/*----------------------------transfers-------------------*/
+.tran
+{
+    background-image: url("../img/sa.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.tran .shadow
+{
+    padding-top: 10px;
+    width: 100%;
+    height: 96%;
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+.tran .shadow h2
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #000080c5;
+}
+/*--------------cercl----------------*/
+.cercl 
+{
+    width: 50px;
+    height: 12px;
+    background: #7c7cce;
+    float: right;
+    display: flex;
+}
+.cercl  div 
+{
+    flex: 1;
+    height: 90%;
+    margin:1px 3px;
+    border-radius: 50%;
+    background: #fff;
+}
+.cercl  div:hover{
+    background: #000080;
+    transition: 0.6s;
+} 
+.cr 
+{
+    position: absolute;
+    right: 0;
+    bottom: 0.1px;
+}
+.cr1
+{
+    position: absolute;
+    right: 0;
+    bottom: 0.1px;
+}
+.ccr
+{
+    width: 30px;
+    height: 12px;
+    background: #7c7cce;
+    float: right;
+    display: flex;
+}
